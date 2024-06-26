@@ -208,26 +208,6 @@ footer{
     margin-top: 10px;
 }
 
-#contact-link{
-    text-decoration: none;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    position: absolute;
-    bottom: 30px;
-    right: 150px;
-    z-index: 0;
-    animation-name: flashText;
-    animation-duration: 2s;
-    animation-iteration-count:infinite;
-}
-
-#contact-link{
-    cursor: pointer;
-    text-decoration: underline;
-    animation: none;
-}
-
 @keyframes shiftin{
     from {margin-left: -500px;}
     to {margin-left: 0;}
